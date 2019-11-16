@@ -1,0 +1,142 @@
+body {
+    background-color: whitesmoke;
+}
+
+#portfolioImage {
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#rupeeImage {
+    width: 200px;
+    height: 300px;
+    margin: 0 50px;
+    border-radius: 50%;
+}
+
+#prof_pic {
+    margin: 40px auto 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#socialImg {
+    width: 75px;
+    height: 75px;
+}
+
+#name {
+    margin: 0 auto 30px;
+}
+
+#caption {
+    font-size: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 169, 221, .6);
+    margin: 0 25%;
+    padding: 10px;
+    
+}
+
+.jumbotron {
+    background-image: url("../images/ripples.png");
+    border-style: solid;
+    border-width: 1px;
+    height: 755px;
+}
+
+.social {
+    text-align: center;
+}
+
+.linkBtn {
+    display: inline-block;
+    background-color: rgb(0, 169, 221);
+    color: white;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 20px 10px;
+    border-radius: 12px;
+}
+
+.container {
+    background-color:rgb(0, 169, 221, .1);
+    margin: 150px auto;
+    height: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.portfolio {
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.image {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.portfolioText {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.aboutText {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    line-height: 40px;
+    font-size: 18px;
+    background-color: whitesmoke;
+}
+
+.header {
+    text-align: center;
+    height: 755px;
+}
+
+.jumbotron {
+    background-image: url(../images/background.jpg);
+    background-size: 120%;
+}
+
+.headerContainer {
+    background-color: rgba( 0, 0, 0, .7);
+    color: white;
+    margin: 100px auto;
+    height: 530px;
+    
+}
+
+.nav-wrapper {
+    background-color: rgb(0, 169, 221, .8);
+}
+
+.contact {
+    text-align: center;
+}
+
+.footer {
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba( 0, 0, 0, .7);
+    color: white;
+}

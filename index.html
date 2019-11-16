@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Chris Vincent's Portfolio</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="header">
+        <div class="jumbotron">
+          <div class="headerContainer">
+            <img id="prof_pic" src="assets/images/prof_pic.jpg">
+            <h1 id="name">Chris Vincent</h1>
+            <div id="caption">
+              <p>Full-Stack Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+        <div class="nav-wrapper">
+          <ul id="nav-mobile" class="right">
+            <li><a id="aboutBtn">About</a></li>
+            <li><a id="portfolioBtn">Portfolio</a></li>
+            <li><a id="contactBtn">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+      
+      <h3 id="aboutScroll">About me</h3>
+      <div id="about">
+        <div class="aboutText">
+          <p>
+            Hi, I'm Chris. Im a front-end web developer with a background in HVAC diagnostics,
+            allowing a heightened sense of problem solving and critical
+            thinking. I acquired newly developed skills in HTML, CSS, and
+            Javascript in attaining a certifacte in Full Stack Development from
+            the University of Central Florida. As a problem-solver by nature, I
+            enjoy the task of creating new applications and
+            troubleshooting along the way. I recently created multiple web games
+            using Javascript, with beautiful design and a simplistic,
+            user-friendly UI. I'm eager to use my new skills in a quality company
+            with a fast-paced environment.
+          </p>
+        </div>
+      </div>
+
+      <h3 id="portfolioScroll">Check out my projects!</h3>
+      <div class="portfolio">
+        <div class="image">
+          <img id="portfolioImage" data-aos="zoom-in-up" src="assets/images/abc.png">
+        </div>
+        <div class="portfolioText">
+          <div class="projectDescription">
+            <h4>Guess The Letter</h4>
+            <p>A game in which you type a letter to guess what letter the computer is thinking of. Guess wrong too many times and you lose!</p>
+            <a href="https://cdvincent.github.io/Psychic-Game/" target="_blank" class="linkBtn" role="button">check it out</a>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="image">
+          <img id="portfolioImage" data-aos="zoom-in-left" src="assets/images/traintime.jpg">
+        </div>
+        <div class="portfolioText">
+          <div class="projectDescription">
+            <h4>Train Time</h4>
+            <p>A game that allows you to add trains to a scheduler and shows you how long until the next one arrives. The scheduler actively tracks time to give you up to date results.</p>
+            <a href="https://cdvincent.github.io/Train-Time/" target="_blank" class="linkBtn" role="button">check it out</a>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="image">
+          <img id="portfolioImage" data-aos="zoom-in-right" src="assets/images/catGif.gif">
+        </div>
+        <div class="portfolioText">
+          <div class="projectDescription">
+            <h4>Giphy Project</h4>
+            <p>An application that allows you to seach for a term and returns gifs related to that term. You are able to click on each gif to play/pause it.</p>
+            <a href="https://cdvincent.github.io/Giphy-Project/" target="_blank" class="linkBtn" role="button">check it out</a>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="image">
+          <img id="rupeeImage" data-aos="zoom-in-up" src="assets/images/greenRupee.png">
+        </div>
+        <div class="portfolioText">
+          <div class="projectDescription">
+            <h4>Crystal Game</h4>
+            <p>A game where you must figure out the value of each of 4 crystals in order to make your total match the randomly generated total. If you go over, you lose!</p>
+            <a href="https://cdvincent.github.io/unit-4-game/" target="_blank" class="linkBtn" role="button">check it out</a>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="image">
+          <img id="portfolioImage" data-aos="zoom-in-left" src="assets/images/stout-beer.jpg">
+        </div>
+        <div class="portfolioText">
+          <div class="projectDescription">
+            <h4>BrewFinder</h4>
+            <p>An application that allows you to search for breweries by name, city, and/or state. The results returned have a map showing the actual location of the brewery.</p>
+            <a href="https://mc180g.github.io/BrewFinder/" target="_blank" class="linkBtn" role="button">check it out</a>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="image">
+          <img id="portfolioImage" data-aos="zoom-in-right" src="assets/images/trivia.jpg">
+        </div>
+        <div class="portfolioText">
+          <div class="projectDescription">
+            <h4>Poke'mon Trivia</h4>
+            <p>A trivia game about...you guessed it! Poke'mon!</p>
+            <a href="https://cdvincent.github.io/TriviaGame/" target="_blank" class="linkBtn" role="button">check it out</a>
+          </div>
+        </div>
+      </div>
+      <h3 id="contactScroll">Contact me!</h3>
+      <div class="contact">
+        <div>
+          <h4>E-mail me at: <a href="mailto:cdvincent89@gmail.com" target="_top">cdvincent89@gmail.com</a>
+          </p></h4>
+        </div>
+          <div class="social">
+            <h4>Find me on social media:</h4>
+            <a href="https://www.linkedin.com/in/christopher-vincent-a7b594105" target="_blank"><img id="socialImg" src="assets/images/in.png"></a>
+            <a href="https://github.com/cdvincent/" target="_blank"><img id="socialImg" src="assets/images/gh.png"></a>
+            <a href="https://www.facebook.com/chris.vincent.589" target="_blank"><img id="socialImg" src="assets/images/fb.png"></a>
+            <a href="https://instagram.com/cdvincent89/" target="_blank"><img id="socialImg" src="assets/images/ig.png"></a>
+          </div>
+
+      </div>
+
+
+    </div>
+
+    <footer class="footer">Copyright © 2019 Chris Vincent</footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script src="assets/javascript/app.js"></script>
+  </body>
+</html>
