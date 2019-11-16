@@ -15,3 +15,9 @@ $("#contactBtn").on("click", function(){
         scrollTop: $("#contactScroll").offset().top
     }, 1000);
 });
+
+$("#topBtn").on("click", function(){
+    $("html, body").animate({
+        scrollTop: $(".header").offset().top
+    }, 1000);
+});
